@@ -1,23 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
-	<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Chileleaks" />
-	<meta property="og:type" content="Sitio Chileleaks" />
-	<meta property="og:image" content="images/logo.png" />
-	<meta property="og:description" content="Chileleaks descripción" />
-	<title>Chileleaks</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-
-	<!-- Font -->
-<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
-
-	<!-- Css -->
-	<link rel="stylesheet" href="css/core.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
+	{% include head.html %}
+	<body>
+		{% include header.html %}
 
 
-</head>
-{{ content }}
+		<div class="wrapper reveal-side-navigation">
+			<div class="wrapper-inner">
+
+					<!-- Header -->
+
+				<header class="header header-absolute header-fixed-on-mobile" data-sticky-threshold="0" data-bkg-threshold="100">
+
+					<div class="header-inner">
+						<div class="row nav-bar">
+							<div class="column width-12 nav-bar-inner">
+								<div class="logo">
+									<div class="logo-inner">
+										<a href="index.html"><img src="images/logo-dark.png" alt="Chileleaks Logo" /></a>
+										<a href="index.html"><img src="images/logo-dark.png" alt="Chileleaks Logo" /></a>
+									</div>
+								</div>
+								<nav class="navigation nav-block secondary-navigation nav-right">
+									<ul>
+
+										<li>
+											<!-- Button -->
+											<div class="v-align-middle">
+												<span class="hide-on-mobile"><a href="#" class="button scroll-link medium text-uppercase pull-right no-margin-bottom"><strong>Quiero denunciar</strong></span></a>
+											</div>
+										</li>
+										<li class="aux-navigation hide">
+											<!-- Aux Navigation -->
+											<a href="#" class="navigation-show overlay-nav-show nav-icon">
+												<span class="icon-menu"></span>
+											</a>
+										</li>
+									</ul>
+								</nav>
+								<nav class="navigation nav-block primary-navigation nav-center">
+									<ul>
+										<li class="current">
+											<a href="index.html">Inicio</a>
+
+										</li>
+
+										<li>
+											<a href="">Quiénes somos</a>
+
+
+										<li>
+											<a href="">Preguntas frecuentes</a>
+
+										</li>
+
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+				<!-- Header End -->
+		{{ content }}
+	</body>
+</html>
