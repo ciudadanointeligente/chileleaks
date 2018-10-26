@@ -10,13 +10,13 @@ $gray: #3B3B3B;
 // General
 
 body{
-  font-family: 'Karla', sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.4rem;
 	line-height: 1.8;
 	color: #666;
 }
+
 body,
 input,
 button,
@@ -24,6 +24,7 @@ select,
 textarea{
 	font-family: 'Karla', sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -36,7 +37,6 @@ h6,
 .font-alt-1,
 .counter{
 	font-family: 'Poppins', sans-serif;
-  font-weight: 700;
 }
 
 /* Titles */
@@ -46,11 +46,12 @@ h3,
 h4,
 h5,
 h6{
-	line-height: 1;
+	line-height: 1.5;
 	font-weight: 300;
 	text-transform: normal;
 	color: #000;
 }
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -59,27 +60,33 @@ h5 a:hover,
 h6 a:hover{
 	color: #D82B20;
 }
+
 h1 {
 	font-size: 4.5rem;
 }
+
 h2{
 	font-size: 3.3rem;
 	line-height: 1.2;
 }
+
 h3 {
 	font-size: 2.3rem;
 }
+
 h4 {
 	font-size: 1.8rem;
 }
+
 h5{
 	font-size: 1.6rem;
 }
+
 h6{
 	font-size: 1.2rem;
 }
 
-/* Widget Titles */
+/**/
 .footer .widget-title,
 .footer .widget-title a{
 	font-size: 1.4rem;
@@ -154,14 +161,15 @@ a.animated-link{
 	position: relative;
 }
 
-/* Lead */
+/**/
 .lead,
 blockquote.large{
-	font-size: 2rem;
+	font-size: 1.7rem;
 	font-weight: 300;
+line-height: 1.8;
 }
 
-/* Title Classes */
+/**/
 .title-xlarge{
 	font-size: 8rem;
 	line-height: 1;
@@ -174,14 +182,13 @@ blockquote.large{
 	font-size: 3.5rem;
 	line-height: 2;
 
-
 }
 .title-small{
 	font-size: 1.1rem;
 	line-height: 1;
 }
 
-/* Text Classes */
+/**/
 .text-xlarge{
 	font-size: 4.6rem;
 	line-height: 1.4;
@@ -199,13 +206,13 @@ blockquote.large{
 	line-height: 1.4;
 }
 
-/* Special Text Classes */
+/**/
 .status-code-title{
 	font-size: 14rem;
 	line-height: 1;
 }
 
-/* Weight Classes */
+/**/
 .weight-light{
 	font-weight: 300;
 }
@@ -248,6 +255,11 @@ blockquote.large{
 	.tmp-content .title-xlarge{
 		font-size: 4.5rem;
 		line-height: 4.5rem;
+	}
+
+	.title-medium{
+		font-size: 2.5rem;
+		line-height: 1.8;
 	}
 
 	/* Lead */
@@ -1473,10 +1485,10 @@ body,
 	background-image: url(../images/FAQ.jpg);
 }
 .intro-title-2-1{
-	background-image: url(../images/slider/slide-8-page-intro.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 .intro-title-2-2{
-	background-image: url(../images/slider/slide-9-page-intro.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 @media only screen and (max-width: 768px){
 	[class*="intro-title-"],
@@ -1700,7 +1712,7 @@ body,
 	opacity: 0.7;
 }
 .tml-nav:hover{
-	color: #000;
+	color: #fff;
 }
 
 /*------------------------------------------------------------------
@@ -1833,29 +1845,24 @@ body,
 	font-size: 1.1rem;
 }
 
-/* Stats /* Stats */
-.stats-1-1{
-	background-image: url(../images/design-agency/generic/hero-1.jpg);
-}
-
 /* Hero */
 .hero-5-1 .media-column{
-	background-image: url(../images/design-agency/generic/hero-half-1.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 .hero-5-2 .media-column{
-	background-image: url(../images/team/hero-half-2.jpg);
+	background-image: url(../images/que-es-cohecho.jpg);
 }
 
 /* Call to Action */
 .call-to-action-2-1{
-	background-image: url(../images/design-agency/generic/signup-1.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 /* Signup 2 */
 .signup-2-1{
-	background-image: url(../images/design-agency/generic/signup-1.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 
 /* Fullscreen Section */
@@ -1871,13 +1878,13 @@ body,
 	bottom: auto;
 }
 .fullscreen-bkg-2{
-	background-image: url(../images/design-agency/slider/slide-3-fs.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 .fullscreen-bkg-3{
-	background-image: url(../images/design-agency/slider/slide-4-fs.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 .fullscreen-bkg-4{
-	background-image: url(../images/design-agency/slider/slide-5-fs.jpg);
+	background-image: url(../images/slide-8-fs.jpg);
 }
 
 /*------------------------------------------------------------------
@@ -1934,14 +1941,7 @@ body,
 	color: #999;
 }
 
-/* Testimonial Slider */
-.testimonials-5-about-1{
-	background: none;
-	color: #666;
-}
-.testimonials-5-about-1 .tms-bullet-nav{
-	background: #000;
-}
+
 
 /*------------------------------------------------------------------
 [16. Contact Pages]
@@ -2019,7 +2019,7 @@ h4.project-title{
 	opacity: 1 !important;
 }
 .hero-5-project-1 > .row:after{
-	background-image: url(../images/portfolio/project-1/hero-half.jpg);
+	background-image: url(../images/slide-about.jpg);
 }
 
 /* Project Info */
@@ -3631,50 +3631,6 @@ blockquote.border{
 	}
 }
 
-/* Pricing Tables */
-.pricing-table-column.callout{
-	box-shadow: 0rem 0rem 1.8rem rgba(0,0,0,.2);
-}
-.pricing-table-column.callout.with-background-image{
-	background-image: url(../images/generic/pricing-table.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.pricing-table-column.callout.with-background-image > *{
-	background-color: rgba(0,0,0,0.4);
-}
-.pricing-table-options del{
-	text-decoration: line-through;
-}
-.pricing-table-price .interval,
-.pricing-table-price .currency{
-	opacity: 1;
-	font-weight: 400;
-}
-
-/* style 1 */
-.pricing-table.style-1 .pricing-table-column *{
-	text-align: center;
-}
-.pricing-table.style-1 .pricing-table-header h2{
-	font-size: 1.5rem;
-}
-
-/* style-2 */
-.pricing-table.style-2 .pricing-table-column *{
-	text-align: center;
-}
-.pricing-table.style-2 .pricing-table-header h2 {
-	font-size: 1.5rem;
-}
-.pricing-table.style-2 .interval{
-	display: block;
-	font-size: 1.1rem !important;
-	text-transform: uppercase;
-	opacity: 0.6;
-}
-
 .logo-slider{
 	width: 10rem;
 	height: 10rem;
@@ -3710,46 +3666,24 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Intro Sections */
 	.intro-title-2{
-		background-image: url(../images/slider/slide-2-page-intro@2x.jpg);
+		background-image: url(../images/slide-8-fs.jpg);
 	}
 	.intro-title-2-1{
-		background-image: url(../images/slider/slide-8-page-intro@2x.jpg);
+		background-image: url(../images/slide-8-fs.jpg);
 	}
 	.intro-title-2-2{
-		background-image: url(../images/slider/slide-9-page-intro@2x.jpg);
+		background-image: url(../images/slide-8-fs.jpg);
 	}
 
 	/* Fullscreen Sections */
 	.fullscreen-bkg-2{
-		background-image: url(../images/design-agency/slider/slide-3-fs@2x.jpg);
+		background-image: url(../images/slide-8-fs.jpg);
 	}
 	.fullscreen-bkg-3{
-		background-image: url(../images/design-agency/slider/slide-4-fs@2x.jpg);
-	}
-	.fullscreen-bkg-4{
-		background-image: url(../images/design-agency/slider/slide-5-fs@2x.jpg);
+		background-image: url(../images/slide-8-fs.jpg);
 	}
 
-	/* Stat Sections */
-	.stats-1-1{
-		background-image: url(../images/design-agency/generic/hero-1@2x.jpg);
-	}
 
-	/* Hero Sections */
-	.hero-5-1 .media-column{
-		background-image: url(../images/design-agency/generic/hero-half-1@2x.jpg);
-	}
-	.hero-5-2 .media-column{
-		background-image: url(../images/team/hero-half-2@2x.jpg);
-	}
 
-	/* Call to Action Sections */
-	.call-to-action-2-1{
-		background-image: url(../images/design-agency/generic/call-to-action-1@2x.jpg);
-	}
 
-	/* Signup */
-	.signup-2-1{
-		background-image: url(../images/design-agency/generic/signup-1@2x.jpg);
-	}
 }
