@@ -3651,11 +3651,36 @@ blockquote.border{
     width: 60%;
 }
 
+footer {
+    padding: 30px 0 10px;
+}
+
+.footer-logo {
+	margin-top: -20px;
+}
+
 .footer-icon {
     color: #3B3B3B;
-    border: 1px solid #DBE1E9;
-    width: 35px;
-    height: 35px;
     padding: 10px;
-    border-radius: 30px;
+		position: relative;
+    margin-right: 5px;
+		&:before {
+			content: ' ';
+			height: 35px;
+			width: 35px;
+			border: 1px solid #DBE1E9;
+			border-radius: 30px;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+		}
+		& .fa-facebook-f {
+	    padding: 3px;
+		}
+		& .fa-github {
+	    padding: 1px;
+		}
+		& .fa-creative-commons-by {
+	    padding: 1px;
+		}
 	}
