@@ -3647,7 +3647,5 @@ blockquote.border{
 }
 
 
-.myInput {
-	text-align: center;
-	font-size: 20px;
-}
+.input, textarea {
+    width: 60%;
