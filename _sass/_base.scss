@@ -2836,12 +2836,7 @@ textarea.required-field{
 }
 
 /* Footer Background */
-.footer{
-	background: #fff;
-}
-.footer-top{
-	/*background-color: #333;*/
-}
+
 .footer .footer-bottom-inner{
 	border-color: #eee;
 }
@@ -3668,7 +3663,7 @@ blockquote.border{
 // Footer
 
 footer {
-  padding: 30px 0 10px;
+  padding: 70px 0 0px;
   background: #f9f9f9;
 }
 
@@ -3703,6 +3698,11 @@ footer {
 	}
 
 @media only screen and (max-width: 768px){
+	footer {
+	  padding: 50px 0 30px;
+	  background: #f9f9f9;
+	}
+
 	.footer-icons {
 		text-align: center;
 		padding-bottom: 20px;
