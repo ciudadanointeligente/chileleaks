@@ -515,6 +515,17 @@ body,
 [4. Header Styling]
 */
 
+.logo-ref {
+	font-size: 12px;
+	position: absolute;
+	top: 17px;
+	left: 21px;
+}
+
+.logo-inner {
+	position: relative;
+}
+
 /* Initial Position */
 .header-bottom{
 	bottom: 0.1rem;
@@ -604,7 +615,8 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 15.5rem;
+	width: 17rem;
+	position: relative;
 }
 
 /* Compacted Header Logo Width */
@@ -2854,6 +2866,8 @@ textarea.required-field{
 	line-height: 1.7;
 }
 
+
+
 /* Footer Navigation */
 .footer .navigation li,
 .footer .navigation ul li a{
@@ -3651,8 +3665,11 @@ blockquote.border{
     width: 60%;
 }
 
+// Footer
+
 footer {
-    padding: 30px 0 10px;
+  padding: 30px 0 10px;
+  background: #f9f9f9;
 }
 
 .footer-logo {
@@ -3684,3 +3701,14 @@ footer {
 	    padding: 1px;
 		}
 	}
+
+@media only screen and (max-width: 768px){
+	.footer-icons {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.footer-logo {
+    margin-top: 20px;
+	}
+}
