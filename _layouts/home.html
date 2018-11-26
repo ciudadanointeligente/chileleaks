@@ -4,7 +4,6 @@ layout: default
 
 <div class="content clearfix">
 
-<!-- Hero-->
 	<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
 		<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax
 		data-parallax-fade-out data-animation="slide" data-scale-under="960">
@@ -15,13 +14,9 @@ layout: default
 					<div class="tms-content">
 						<div class="tms-content-inner v-align-middle row">
 							<div class="col-md-8 offset-md-2">
-								<h1 class="tms-caption color-white lspacing-medium mb-20"
+								<h1 class="tms-caption lspacing-medium mb-20"
 								data-animate-in="preset:slideInRightShort;duration:800ms;delay:400ms;"
 								data-no-scale> <strong>Denuncia aquí de forma segura y anónima casos de corrupción</strong></h1>
-								<p class="tms-caption text-medium lspacing-small color-white"
-									data-animate-in="preset:slideInUpShort;duration:800ms;delay:800ms;"
-									data-no-scale>¡Tú puedes ayudarnos a encontrar al<br>
-									<em>hijo o hija ilustre</em> de Las Coimas!</p>
 
 										<div class="clear"></div>
 
@@ -33,7 +28,7 @@ layout: default
 										data-no-scale>
 
 										<a href="https://player.vimeo.com/video/53846565?autoplay=1"
-										class="lightbox-link color-white" data-lightbox-animation="fade" data-toolbar="zoom">
+										class="lightbox-link" data-lightbox-animation="fade" data-toolbar="zoom">
 										<span class="icon-circled border-white icon-play medium no-margins" data-no-scale></span>
 										</a>
 
@@ -41,8 +36,10 @@ layout: default
 							</div>
 						</div>
 					</div>
-
-					<img data-src="images/slider.jpg" data-retina src="{{ site.baseurl }}images/slider.jpg" alt=""/>
+					<video class="bgvid" loop muted autoplay poster="{{ site.baseurl }}/video/video.jpg">
+						<source src="{{ site.baseurl }}/video/video.mp4" type="video/mp4">
+					</video>
+					<!-- <img data-src="images/slider.jpg" data-retina src="{{ site.baseurl }}images/slider.jpg" alt=""/> -->
 
 				</li>
 			</ul>
