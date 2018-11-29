@@ -2,11 +2,11 @@
   font-family: 'Karla';
   font-style: normal;
   font-weight: 400;
-  src: local('Karla'), local('Karla-Regular'), url("{{ "/fonts/karla-r.ttf" | prepend: site.baseurl }}") format('truetype');
+  src: local('Karla'), local('Karla-Regular'), url('../fonts/karla-r.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
-  src: local('Karla Bold'), local('Karla-Bold'), url("{{ "/fonts/karla-b.ttf" | prepend: site.baseurl }}") format('truetype');
+  src: local('Karla Bold'), local('Karla-Bold'), url('../fonts/karla-b.ttf') format('truetype');
 }

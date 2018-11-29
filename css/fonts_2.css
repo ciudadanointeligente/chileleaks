@@ -2,5 +2,5 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  src: local('Poppins Bold'), local('Poppins-Bold'), url("{{ "/fonts/poppins-b.ttf" | prepend: site.baseurl }}") format('truetype');
+  src: local('Poppins Bold'), local('Poppins-Bold'), url('../fonts/poppins-b.ttf') format('truetype');
 }
