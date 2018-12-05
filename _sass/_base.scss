@@ -1646,6 +1646,7 @@ body,
 
 .tm-lightbox{
 	background: rgba(255,255,255,1);
+
 }
 #tml-content-wrapper.zoomed + #tml-caption span{
 	background-color: rgba(0,0,0,0.3);
@@ -1754,6 +1755,8 @@ body,
 	     -o-animation:preloader-outer 1.5s ease infinite;
 	        animation:preloader-outer 1.5s ease infinite;
 }
+
+
 .tm-loader #circle{
 	-webkit-animation:preloader 3s ease infinite;
 	   -moz-animation:preloader 3s ease infinite;
