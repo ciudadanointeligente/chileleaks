@@ -404,6 +404,13 @@ body,
 	color: $yellow;
 }
 
+#videochileleaks{
+
+	    z-index: 20;
+			width: 100%; height: 100%;
+
+}
+
 /*------------------------------------------------------------------
 [3. Section Padding]
 */
@@ -939,7 +946,7 @@ body,
 .header .v-align-middle > .button:not(.nav-icon):hover,
 .header .dropdown > .button:not(.nav-icon):hover,
 .header .dropdown > .button.active:not(.nav-icon){
-	background-color: $yellow;
+	background-color: #FFDE00;
 	border-color: transparent;
 	color: #fff;
 }
