@@ -182,6 +182,13 @@ line-height: 1.8;
 	line-height: 1;
 }
 
+.overlay-navigation-wrapper.scale-in {
+		opacity: 1;
+}
+
+.collapse:not(.show) {
+	display: block;
+}
 /**/
 .text-xlarge{
 	font-size: 4.6rem;
@@ -410,6 +417,12 @@ body,
 			width: 100%; height: 100%;
 
 }
+
+* {
+  padding:0;
+  margin:0;
+}
+
 
 /*------------------------------------------------------------------
 [3. Section Padding]
@@ -3727,6 +3740,8 @@ footer {
 		}
 	}
 
+
+
 @media only screen and (max-width: 768px){
 	footer {
 	  padding: 50px 0 30px;
@@ -3751,5 +3766,12 @@ footer {
 
 	}
 
+	.overlay-navigation-wrapper.scale-in {
+	    opacity: 1;
+	}
+
+	.collapse:not(.show) {
+    display: block;
+}
 
 }
