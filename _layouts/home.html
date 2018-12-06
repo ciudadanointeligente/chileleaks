@@ -2,68 +2,50 @@
 layout: default
 ---
 
-<div class="content clearfix">
-
-
-
-
+<!-- Hero-->
 	<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
 
-
-		<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax
-		data-parallax-fade-out data-animation="slide" data-scale-under="960">
+		<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-parallax-fade-out data-animation="slide" data-scale-under="960">
 			<ul class="tms-slides">
+				<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.0">
 
-				<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000"
-				data-overlay-bkg-opacity="0.0">
 					<div class="tms-content">
 						<div class="tms-content-inner v-align-middle row">
 							<div class="col-md-8 offset-md-2">
-								<h1 class="tms-caption lspacing-medium mb-20"
-								data-animate-in="preset:slideInRightShort;duration:800ms;delay:400ms;"
-								data-no-scale> <strong>Denuncia aquí de forma segura y anónima casos de corrupción</strong></h1>
+								<h1 class="tms-caption lspacing-medium mb-20" data-animate-in="preset:slideInRightShort;duration:800ms;delay:400ms;" data-no-scale> <strong>Denuncia aquí de forma segura y anónima casos de corrupción</strong></h1>
 
 										<div class="clear"></div>
 										<div class="clear"></div>
 
-								<div class="tms-caption"
-										data-animate-in="preset:scaleIn;duration:900ms;delay:1200ms;"
-										data-no-scale>
-										<a href="https://player.vimeo.com/video/304712391?autoplay=1&title=0&byline=0&portrait=0" class="button border-hover-Transparent color-white color-hover-grey" style="font-size:18px;color:white;border-width:1.5px;" target="_blank">
-											<span style="font-size:18px;color:white;font-weight:800;" class="icon-play left"></span>
-											Ver video
-										</a>
-								</div>
-
-
-
-							</div>
+								<div class="tms-caption"	data-animate-in="preset:scaleIn;duration:900ms;delay:1200ms;"	data-no-scale>	<a href="https://player.vimeo.com/video/304712391?autoplay=1&title=0&byline=0&portrait=0" class="button border-hover-Transparent color-white color-hover-grey" style="font-size:18px;color:white;border-width:1.5px;" target="_blank">	<span style="font-size:18px;color:white;font-weight:800;" class="icon-play left"></span>Ver video</a>
+							 </div>
+						 </div>
 						</div>
 					</div>
-					<video class="bgvid" loop muted autoplay poster="{{site.baseurl}}/video/video.jpg">
-						<source src="{{site.baseurl}}/video/video1.mp4" type="video/mp4">
-					</video>
 
+					<video class="bgvid" loop muted autoplay poster="{{site.baseurl}}/video/video.jpg">
+					<source src="{{site.baseurl}}/video/video1.mp4" type="video/mp4">
+					</video>
 
 				</li>
 			</ul>
 		</div>
 	</section>
+
 <!-- Hero-->
 
 <!-- Qué es Chileleaks - denuncias - cohecho -informacion denuncia -->
 	<div class="section-block replicable-content">
 		<div class="row flex mt-30">
+
 			<div class="column width-12 center">
-				<div class="mb-30">
-					<img src="images/logo-big.svg" alt="chileleaks-logo" />
-				</div>
+				<div class="mb-30"><img src="images/logo-big.svg" alt="chileleaks-logo" /></div>
 					<div class="clear"></div>
 						<p class="lead mb-30">Chileleaks es una plataforma segura para denunciar de
 							forma anónima casos de cohecho y soborno en Chile. Si posees información, datos y/o
 							pruebas de personas en cargos públicos que participen en estas malas prácticas,
 							<a href=denuncia.html>denuncia acá</a>.</p>
-					</div>
+			</div>
 
 			<div class="column width-4">
 				<div class="feature-column box small bkg-white mb-50 left">
@@ -209,6 +191,8 @@ function myFunction() {
   alert("Texto copiado " + copyText.value);
 }
 </script>
+
+
 
 <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/timber.master.min.js" | prepend: site.baseurl }}"></script>
