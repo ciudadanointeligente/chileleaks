@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-<!-- Tooltip -->
-<script>
-	$(function () {
-	  $('[data-toggle="tooltip"]').tooltip()
-	})
-</script>
 
 <!-- Contenido -->
 <div class="section-block replicable-content">
@@ -18,7 +12,7 @@ layout: default
 				<ul class="tab-nav">
 
 
-							<li class="active">
+					<li class="active">
 						<a href="#tabs-1-pane-1"><span><strong>1)</strong> Recopila </span> </a>
 					</li>
 					<li>
@@ -105,7 +99,7 @@ layout: default
 <a data-content="inline" href="https://www.torproject.org/download/download-easy.html.es" target="_blank" class="button button bkg-theme bkg-hover-yellow color-black color-hover-white"><strong>Link para descargar Tor</strong></a>
 <!-- <a data-content="inline" data-aux-classes="tml-search-modal tml-exit-black" data-toolbar="" data-modal-mode data-modal-width="900" data-lightbox-animation="fadeIn" href="#search-modal" class="lightbox-link button bkg-theme bkg-hover-yellow color-white color-hover-white">Medidas extra: Tails</a> -->
 
-
+<!-- Advanced Modal -->
 	<div id="search-modal" class="hide">
 
 		<!-- Hero Custom Section -->
@@ -132,7 +126,7 @@ layout: default
 		<!-- Hero Custom Section End -->
 
 	</div>
-	<!-- Subscribe Advanced Modal End -->
+	<!-- Advanced Modal End -->
 
 							</div>
 						</div>
@@ -179,21 +173,7 @@ layout: default
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
 </div>
-
-<!-- Footer End -->
-
-<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/timber.master.min.js" | prepend: site.baseurl }}"></script>
-<script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  document.execCommand("copy");
-  alert("Texto copiado " + copyText.value);
-}
-</script>
