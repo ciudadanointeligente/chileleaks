@@ -65,3 +65,24 @@
     </div>
   </div>
 </footer>
+
+<!-- script -->
+
+<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/timber.master.min.js" | prepend: site.baseurl }}"></script>
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+  alert("Texto copiado " + copyText.value);
+}
+</script>
+
+<!-- Tooltip -->
+<script>
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+</script>
